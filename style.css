@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-image: url(https://www.designi.com.br/images/preview/10467126.jpg);
+    background-image: url(milky-way-galaxy.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -28,33 +28,22 @@ body{
     width: 100%;
     align-items: center;
     justify-content: center;
-    background-color: #783c00;  
+    background: linear-gradient(to right, #a95e13, #110038);
+    border-radius: 20px;
+
 }
+ 
 
 #cabe img{
     width: 8rem;
     padding-right: 60rem ;
-}
-
-#menu a{
-    display: inline;
-    text-align: center;
-    font-size: large;
-    color: black;
-    text-decoration: none;
-    border: 2px solid whitesmoke;
-    padding: 4px 8px ;
-    background-color: bisque;
-    transition: 4ms;
-    border-radius: 8px;
-    margin-left: 20px;
-}
+} 
 
 #prin{ 
     grid-area: prin;
     display: grid;
     text-align: justify;
-    background-color: bisque;
+    background-color: rgba(255, 228, 196, 0);
     border-radius: 0.8em;
     margin-bottom: 1%;   
     margin-top: 1%;
@@ -108,8 +97,9 @@ padding-left: 1%;
 }
 
 #roda{
-    background: linear-gradient(to right, #a95e13, #d45e00);
+    background: linear-gradient(to right, #a95e13, #110038);
     grid-area: roda;
+    border-radius: 20px;
 }
 
 #roda h3{
@@ -121,4 +111,8 @@ padding-left: 1%;
 #roda p{
     text-align: center;
     padding-top: 5px;
+}
+
+.p{ 
+    color: white;
 }
