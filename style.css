@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(https://www.designi.com.br/images/preview/10467126.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 0.5fr 1.3fr 1.2fr 1.1fr;
+    grid-template-rows: 0.2fr 0.2fr 3.4fr 0.4fr;
+    grid-template-areas: 
+    "cabe cabe cabe cabe"
+    "secun prin prin prin"
+    "secun prin prin prin"
+    "roda roda roda roda";
+    grid-gap: 0.5em;
+    
+
+}
+
+#cabe{
+    grid-area: cabe;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #783c00;  
+}
+
+#cabe img{
+    width: 8rem;
+    padding-right: 60rem ;
+}
+
+#menu a{
+    display: inline;
+    text-align: center;
+    font-size: large;
+    color: black;
+    text-decoration: none;
+    border: 2px solid whitesmoke;
+    padding: 4px 8px ;
+    background-color: bisque;
+    transition: 4ms;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+#prin{ 
+    grid-area: prin;
+    display: grid;
+    text-align: justify;
+    background-color: bisque;
+    border-radius: 0.8em;
+    margin-bottom: 1%;   
+    margin-top: 1%;
+    margin-right: 0.5%;
+    line-height: 1.2;
+}
+
+#prin h1{
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 2px;
+    font-family: cursive;
+    padding-top: 20px;
+    width: 98%;
+}    
+
+#prin h4{
+padding-left: 1%;
+}
+    
+    
+
+
+#prin p{
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: large;
+}
+
+#secun{
+    grid-area: secun;
+    display: grid;
+    text-align: justify;
+    background-color: antiquewhite;
+    border-radius: 0.8em;
+    margin-bottom: 7%;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+
+#secun h3{
+    text-align: center;
+    font-size: large;
+    padding-top: 14px;
+}
+
+#secun p{
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 350px;
+}
+
+#roda{
+    background: linear-gradient(to right, #a95e13, #d45e00);
+    grid-area: roda;
+}
+
+#roda h3{
+    text-align: center;
+    font-size: large;
+    padding: 10px;
+}
+
+#roda p{
+    text-align: center;
+    padding-top: 5px;
+}
